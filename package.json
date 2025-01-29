@@ -2,9 +2,10 @@
   "name": "chai-backend",
   "version": "1.0.0",
   "description": "A backend app learning from chai aur backend series",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "chai",
@@ -12,5 +13,9 @@
     "backend"
   ],
   "author": "Faizan Darwesh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^3.1.9"
+  }
 }
